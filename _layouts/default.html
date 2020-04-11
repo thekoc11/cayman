@@ -46,8 +46,8 @@
     {% include navigation.html %}
     <a id="skip-to-content" href="#content">Skip to the content.</a>
     <header class="page-header" role="banner">
-      <div class="logo" style="height: 600px; object-fit: content" >
-        <img src="./images/logo.png" alt="logo"/>
+      <div class="logo" style="height: 600px;", >
+        <img src="./images/logo.png" style="object-fit: scale-down;" alt="logo"/>
         </div
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>

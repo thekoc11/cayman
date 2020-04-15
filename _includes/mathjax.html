@@ -59,7 +59,14 @@ MathJax = {
   window.MathJax = {
     loader: {load: ['[tex]/ams']},
     tex: {
-      inlineMath: [['$', '$'], ['\(', '\)']],
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [
+      ['$$', '$$'],
+      ['\\[', '\\]']
+      ],
+      tags: 'all',
+      processEscapes: true,
+      processEnvironments: true,
       packages: {'[+]': ['ams']}
     },
     svg: {

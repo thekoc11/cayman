@@ -82,6 +82,14 @@ a {
   background-attachment: scroll;
 }
 
+.logo_small {
+  background-image: url("../../images/logo.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain;
+  background-attachment: scroll;
+}
+
 .btn {
   display: inline-block;
   margin-bottom: 1rem;

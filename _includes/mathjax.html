@@ -1,5 +1,5 @@
 {% if page.mathjax %}
-<script type="text/x-mathjax-config">
+<!-- <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
     tex2jax: {
       inlineMath: [['$','$'] , ['\\(', '\\)']],
@@ -18,7 +18,7 @@
   charset="utf-8"
   src="https://vincenttam.github.io/javascripts/MathJaxLocal.js"
 >
-</script>
+</script> -->
 <!-- <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
     extensions: [
@@ -55,9 +55,8 @@ MathJax = {
 <script type="text/javascript" id="MathJax-script" async
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
 </script> -->
-<!-- <script  async>
+<script  async>
   window.MathJax = {
-    loader: {load: ['[tex]/ams']},
     tex: {
       inlineMath: [['$', '$'], ['\\(', '\\)']],
       displayMath: [
@@ -65,9 +64,8 @@ MathJax = {
       ['\\[', '\\]']
       ],
       tags: 'all',
-      processEscapes: true,
+      processEscapes: false,
       processEnvironments: true,
-      packages: {'[+]': ['ams']}
     },
     svg: {
       fontCache: 'global'
@@ -80,5 +78,5 @@ MathJax = {
     document.head.appendChild(script);
   })();
 
-</script> -->
+</script>
 {% endif %}

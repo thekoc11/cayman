@@ -1,5 +1,6 @@
 ---
-layout: default
+layout: default   
+mathjax: true
 ---
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
@@ -12,7 +13,9 @@ There should be whitespace between paragraphs. We recommend including a README, 
 
 # Header 1
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.    
+
+$$ H(X) = \sqrt{p \log_2 \frac{1}{p}}^2$$
 
 ## Header 2
 
